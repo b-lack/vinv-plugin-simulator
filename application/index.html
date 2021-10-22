@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Math & Stand</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <div id="map"></div>
+    <div id="ge-canvas-one" class="d-none card ge-canvas position-absolute top-0 end-0 m-4"></div>
+
+   <div class="position-fixed bottom-0 end-0 m-5">
+        <div class="card p-2 m-1 shadow"><span id="ge-tree-count"></span></div>
+        <div class="card p-2 m-1 shadow"><span id="ge-area-size"></span></div>
+   </div>
+
+    
+    <div class="card p-2 m-4 shadow position-fixed top-0 start-0">
+        <h3>Forest Stand Simulation<i> with unknown size</i></h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td></td>
+                    <td class="ge-rotate">real data</td>
+                    <td class="ge-rotate">computed data</td>
+                    <td class="ge-rotate">error %</td>
+                    <td class="ge-rotate">error trees</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><div class="pointer species-0"></div>Oak <i>Quercus</i></td>
+                    <td id="species-is-0">-</td>
+                    <td id="species-result-0">-</td>
+                    <td id="species-diff-0">-</td>
+                    <td id="species-tdiff-0">-</td>
+                </tr>
+                <tr>
+                    <td><div class="pointer species-1"></div>Beech <i>Fagus sylvatica</i></td>
+                    <td id="species-is-1">-</td>
+                    <td id="species-result-1">-</td>
+                    <td id="species-diff-1">-</td>
+                    <td id="species-tdiff-1">-</td>
+                </tr>
+                <tr>
+                    <td><div class="pointer species-2"></div>other species</td>
+                    <td id="species-is-2">-</td>
+                    <td id="species-result-2">-</td>
+                    <td id="species-diff-2">-</td>
+                    <td id="species-tdiff-2">-</td>
+                </tr>
+            
+                <tr>
+                    <td><div class="pointer species-3"></div>Spruce <i>Picea</i></td>
+                    <td id="species-is-3">-</td>
+                    <td id="species-result-3">-</td>
+                    <td id="species-diff-3">-</td>
+                    <td id="species-tdiff-3">-</td>
+                </tr>
+                <tr>
+                    <td><div class="pointer species-4"></div>Fir <i>Abies</i></td>
+                    <td id="species-is-4">-</td>
+                    <td id="species-result-4">-</td>
+                    <td id="species-diff-4">-</td>
+                    <td id="species-tdiff-4">-</td>
+                </tr>
+                <tr>
+                    <td><div class="pointer species-5"></div>Douglas-fir <i>Pseudotsuga menziesii</i></td>
+                    <td id="species-is-5">-</td>
+                    <td id="species-result-5">-</td>
+                    <td id="species-diff-5">-</td>
+                    <td id="species-tdiff-5">-</td>
+                </tr>
+                <tr>
+                    <td><div class="pointer species-6"></div>Pine <i>Pinus</i></td>
+                    <td id="species-is-6">-</td>
+                    <td id="species-result-6">-</td>
+                    <td id="species-diff-6">-</td>
+                    <td id="species-tdiff-6">-</td>
+                </tr>
+                <tr>
+                    <td><div class="pointer species-7"></div>Larch <i>Larix</i></td>
+                    <td id="species-is-7">-</td>
+                    <td id="species-result-7">-</td>
+                    <td id="species-diff-7">-</td>
+                    <td id="species-tdiff-7">-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--<div class="card p-2 shadow position-fixed top-50 start-50 translate-middle">
+        <div class="position-fixed ge-curton position-flex"></div>
+        <button type="buttton" class="btn"> start</button>
+    </div>-->
+
+    <script src='index.js'></script>
+</body>
+</html>

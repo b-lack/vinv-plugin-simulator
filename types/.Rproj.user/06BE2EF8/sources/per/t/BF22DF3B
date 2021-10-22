@@ -1,0 +1,27 @@
+{
+    "id": "BF22DF3B",
+    "path": "~/sites/dissertation/point_proccesses/types/poisson.R",
+    "project_path": "poisson.R",
+    "type": "r_source",
+    "hash": "2385223254",
+    "contents": "",
+    "dirty": false,
+    "created": 1618255425753.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "17,35",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1618255720,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1618255720443,
+    "read_only": false,
+    "read_only_alternatives": []
+}
